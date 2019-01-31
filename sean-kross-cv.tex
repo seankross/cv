@@ -1,0 +1,299 @@
+% CV template for Sean Kross
+
+% Derived from http://links.tedpavlic.com/tex/tpavlic_cv_faculty.tex
+\input{tedpavlic-template}
+
+%\def\public{XXX} % define for a public version of my CV
+
+\usepackage{etoolbox}
+\usepackage{comment}
+
+\begin{document}
+\makeheading{Sean Kross}
+
+\section{}
+
+\hyphenation{Micro-soft}
+
+% NOTE: Mind where the & separators and \\ breaks are in the following
+%       table. Table is one row made up of three parboxes. The left
+%       parbox has address info, the middle parbox has a vertical bar,
+%       and the right parbox has phone and electronic contact
+%       information.
+%
+% MACROS: \rcollength is the width of the right column of the table
+%             (adjust it to your liking; default is 1.85in).
+\newlength{\rcollength}\setlength{\rcollength}{1.85in}%
+%
+\vspace{1em}
+
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength}p{\rcollength}}%
+
+
+\parbox{\textwidth-\rcollength}{PhD Student \\
+Department of Cognitive Science \\
+University of California, San Diego (UCSD)
+}
+
+&
+
+% Non-snail-mail contact information
+\parbox{\rcollength}{
+
+\ifx\public\undefined
+%Phone: 000.000.0000 \\
+Updated: \today \\
+\else
+Updated: \today \\
+\fi
+Email: sean@seankross.com \\
+www.seankross.com
+}
+
+\end{tabular}
+
+\vspace{1.75em}
+
+\section{}
+
+\textbf{RESEARCH INTERESTS}
+\vspace{0.05in}
+
+Human-computer interaction, data science, online learning, cybersecurity
+
+\section{} \vspace{0.125in} \textbf{ACADEMIC POSITIONS} \vspace{-0.5em}
+
+\section{01/2018 --}
+\textbf{The Johns Hopkins Bloomberg School of Public Health}, Baltimore, MD \\
+Associate Faculty of Biostatistics
+
+\section{01/2017 -- 05/2017}
+\textbf{The University of Pennsylvania School of Design}, Philadelphia, PA \\
+Adjunct Faculty of Design
+
+\section{} \textbf{EDUCATION} \vspace{-0.5em}
+
+\section{09/2017 --}
+
+\textbf{The University of California, San Diego}, La Jolla, CA \\
+Ph.D.\ in Cognitive Science \\
+%Dissertation: \emph{Software Tools to Facilitate Research Programming} \\
+Advisor: Philip Guo %, Jeffrey Heer, Margo Seltzer (Harvard University)
+
+\section{06/2012 -- 05/2015}
+
+\textbf{The University of Maryland, College Park}, College Park, MD \\ Bachelor
+of Science in Computer Science
+
+\section{09/2008 -- 05/2012}
+
+\textbf{New York University}, New York, NY \\
+Bachelor of Arts in Biology
+
+\section{} \vspace{0.1in} \textbf{AWARDS AND HONORS} \vspace{-0.05in}
+
+\section{05/2012} New York University President's Service Award
+%\section{04/2018} CHI Honorable Mention Paper Award [C.38]
+%\section{09/2009 -- 06/2011}
+%National Science Foundation (NSF) Graduate Fellowship
+
+\section{} \vspace{0.1in} \textbf{PRIOR EMPLOYMENT} \vspace{-0.5em}
+
+\section{09/2015 -- 09/2017}
+\textbf{The Johns Hopkins Bloomberg School of Public Health}, Baltimore, MD \\
+Chief Technology Officer -- Johns Hopkins Data Science Lab
+
+% \newpage % stent
+%
+% \section{} \vspace{0.2in} \textbf{FUNDING}
+%
+%\section{} National Science Foundation. NRT-IGE: Augmenting, Piloting,
+%and Scaling Computational Notebooks to Train New Graduate Researchers in
+%Data-Centric Programming. \$498,751 (co-PI, 2017--2020. PI: James
+%Hollan, co-PI: Philip Guo, co-PI: Scott Klemmer, co-PI: Bradley Voytek)
+%
+\section{} \vspace{0.2in} \textbf{PUBLICATIONS} \vspace{0.05in}
+
+%Note that in many areas within computer science and human-computer
+%interaction, \emph{conferences} (not journals) are the primary venues
+%for peer-reviewed publications.
+
+\section{Conference \\ Papers}
+
+\begin{bibenum}
+
+\item[C.7] \textbf{Sean Kross} and Philip J.\ Guo. Practitioners Teaching Data 
+Science in Industry and Academia: Expectations, Workflows, and Challenges.
+In Proceedings of CHI 2019: \emph{ACM Conference on Human Factors in Computing 
+Systems}, May 2019. Glasgow, UK.
+
+\item[C.6] Elissa M.\ Redmiles, \textbf{Sean Kross}, Michelle L.\ Mazurek. 
+How Well Do My Results Generalize? Comparing Security and Privacy Survey Results
+from MTurk, Web, and Telephone Samples. In Proceedings of S\&P 2019: 
+\emph{IEEE Symposium on Security and Privacy}, May 2019. San Francisco, CA, USA.
+
+\item[C.5] Elissa M.\ Redmiles, Ziyun Zhu, \textbf{Sean Kross}, Dhruv Kuchhal,
+Tudor Dumitras, Michelle L.\ Mazurek. Asking for a Friend: Evaluating Response 
+Biases in Security User Studies. In Proceedings of CCS 2018: \emph{ACM 
+Conference on Computer and Communications Security}, October 2018. Toronto, ON, 
+Canada.
+
+\item[C.4] \textbf{Sean Kross} and Philip J.\ Guo. Students, Systems,
+and Interactions: Synthesizing the First Four Years of Learning@Scale
+and Charting the Future. In Proceedings of L@S 2018: \emph{ACM
+Conference on Learning at Scale}, June 2018. London, UK.
+
+\item[C.3] Elissa M.\ Redmiles, \textbf{Sean Kross}, Michelle L.\ Mazurek. 
+Where is the Digital Divide? Examining the Impact of Socioeconomics on Security 
+and Privacy Outcomes. In Proceedings of CHI 2017: \emph{ACM Conference on 
+Human Factors in Computing Systems}, May 2017. Denver, CO, USA.
+
+\item[C.2] Elissa M.\ Redmiles, \textbf{Sean Kross}, Michelle L.\ Mazurek. How 
+I Learned to be Secure: a Census-Representative Survey of Security Advice 
+Sources and Behavior. In Proceedings of CCS 2016: \emph{ACM Conference on 
+Computer and Communications Security}, October 2016. Vienna, Austria.
+
+\item[C.1] Elissa Redmiles, Mary Allison Abad, Isabella Coronado, 
+\textbf{Sean Kross}, Amelia Malone. A Classroom Tested Accessible Multimedia 
+Resource for Engaging Underrepresented Students in Computing. In Proceedings of
+SIGCSE 2015: \emph{ACM Conference on Computer Science Education}, March 2015. 
+Kansas City, MO, USA.
+
+\end{bibenum}
+
+%\vspace{0.1in}
+
+\section{Preprints and Technical Reports}
+
+\begin{bibenum}
+
+\item[P.2] Elissa M.\ Redmiles, Lisa Maszkiewicz, Emily Hwang, Dhruv Kuchhal, 
+Everest Liu, Miraida Morales, Denis Peskov, Sudha Rao, Rock Stevens, Kristina 
+Gligoric, \textbf{Sean Kross}, Michelle L.\ Mazurek, Hal Daumé III. Digital 
+Words: Moving Forward with Measuring the Readability of Online Texts. 
+In \emph{Technical Reports of the University of Maryland Computer Science 
+Department}, October 2018.
+
+\item[P.1] \textbf{Sean Kross}, Roger D.\ Peng, Brian S.\ Caffo, Ira Gooding,
+Jeffery T.\ Leek. The Democratization of Data Science Education. 
+In \emph{PeerJ Preprints}, August 2017.
+
+\end{bibenum}
+
+%\vspace{0.1in}
+
+\section{Books}
+
+\begin{bibenum}
+
+\item[B.2] \textbf{Sean Kross}. The Unix Workbench. Leanpub, 2017.
+
+\item[B.1] Roger D.\ Peng, \textbf{Sean Kross}, Brooke Anderson. Mastering 
+Software Development in R. Leanpub, 2017.
+
+\end{bibenum}
+
+%\vspace{0.1in}
+
+\section{} \vspace{0.2in} \textbf{TALKS} \vspace{0.05in}
+
+\begin{innerlist}
+\item The Lean Course: Open and Collaborative Online Course Development . \textit{Joint Statistical Meetings}, Vancouver, BC, Canada, July 2018.
+\item Lessons from Teaching Data Science to Over a Million People. \textit{Crunch Conference}, Budapest, Hungary, October 2017.
+\item Beyond Axes: Simulating Systems with Interactive Graphics. \textit{Joint Statistical Meetings}, Baltimore, MD, August 2017.
+\item Re-thinking the Value Added by a Data Repository. \textit{Dataverse Community Meeting}, Cambridge, MA, June 2017.
+\item Scaling Data Science Education. \textit{Seminário Internacional de Estatística}, Rio de Janeiro, Brazil, May 2016.
+\end{innerlist}
+
+\section{} \vspace{0.2in} \textbf{TEACHING} \vspace{0.05in}
+
+\section{Instructor}
+
+\begin{innerlist}
+\item Johns Hopkins University on Coursera.org: The Unix Workbench \\ (Continually since Summer 2017)
+\item The University of Pennsylvania MUSA 850: Data Wrangling and \\ Data Visualization (Spring 2017)
+\end{innerlist}
+
+\section{Teaching\\Assistant}
+
+\begin{innerlist}
+\item UCSD COGS 9: Introduction to Data Science  \\ (Winter 2019)
+\item UCSD COGS 120/CSE 170: Human-Computer Interaction Design \\ (Fall 2017, 2018)
+\item UCSD COGS 121 Human-Computer Interaction Programming Studio \\ (Spring 2018)
+\end{innerlist}
+
+\begin{comment}
+
+\section{} \vspace{0.2in} \textbf{SERVICE} \vspace{0.05in}
+
+\section{External Paper\\Reviewer}
+
+The Journal of Open Source Software (2018), The American Statistician (2017)
+
+\section{} \vspace{0.2in} \textbf{SOFTWARE} \vspace{0.05in}
+
+\begin{innerlist}
+\item Ian Drosos [C.33]
+\item Logan Gittelson
+\item Sean Kross [C.39]
+\item Jaime Montoya
+\item Xiong Zhang [C.36,C.43]
+\end{innerlist}
+
+\end{comment}
+
+\begin{comment}
+
+\section{Outreach@Scale}
+
+My Python Tutor programming education website \url{pythontutor.com} has
+attracted over 3.5 million total users from over 180 countries. My
+personal website \url{pgbovine.net} contains over 300 articles, videos,
+and podcast episodes on topics ranging from research to education, and
+receives over 750,000 page views per year. I have also recorded over 500
+videos on research, education, and outreach topics for my
+YouTube channel, which now has 4,000+ subscribers and 500,000+
+total video views.
+
+\end{comment}
+
+
+
+
+\begin{comment}
+\ifx\public\undefined
+
+\section{} \vspace{0.2in} \textbf{REFERENCES}
+
+\vspace{0.5em}
+Rob Miller \\
+Professor \\
+MIT EECS and MIT CSAIL \\
+Massachusetts Institute of Technology \\
+rcm@mit.edu
+
+\vspace{1em}
+Margo Seltzer \\
+Herchel Smith Professor of Computer Science \\
+Harvard John A. Paulson School of Engineering and Applied Sciences \\
+Harvard University \\
+margo@eecs.harvard.edu
+
+\vspace{1em}
+Jeffrey Heer \\
+Associate Professor \\
+Computer Science \& Engineering \\
+University of Washington \\
+jheer@uw.edu
+
+\vspace{1em}
+Dawson Engler \\
+Associate Professor \\
+Computer Science and Electrical Engineering \\
+Stanford University \\
+engler@stanford.edu
+
+\fi
+\end{comment}
+
+\end{document}
